@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.hydrate(
   <BrowserRouter>
-    <App />
+    <App language="en"/>
   </BrowserRouter>, 
   document.getElementById('root'));
 

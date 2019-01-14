@@ -17,7 +17,7 @@ app.get('/*', (req, res) => {
   const context = {};
   const app = ReactDOMServer.renderToString(
     <StaticRouter location={req.url} context={context}>
-      <App />
+      <App language="en"/>
     </StaticRouter>
   );
 
